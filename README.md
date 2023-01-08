@@ -10,13 +10,13 @@ The following loss functions are tested: dice coefficient, soft dice, tversky, f
 
 | |standard|attention|compact|dense|residual|
 |---|---|---|---|---|---|
-|**dice_coefficient_loss**|0.8077|||||
-|**dice_soft_loss**|0.8120|||||
-|**tversky_loss**|0.8151|||||
-|**focal_tversky_loss**|0.8118|||||
-|**symmetric_focal_loss**||||||
-|**symmetric_focal_tversky_loss**|0.8152|||||
-|**asymmetric_focal_loss**|0.8030|||||
-|**asymmetric_focal_tversky_loss**|0.8077|||||
-|**sym_unified_focal_loss**|0.8194|||||
-|**asym_unified_focal_loss**|0.8196|||||
+|**dice_coefficient_loss**|0.8077|0.8043|0.7922|0.7960|0.7893|
+|**dice_soft_loss**|0.8120|0.8111|0.8004|0.8112|0.8122|
+|**tversky_loss**|0.8151|0.8156|0.8130|0.8112|0.8037|
+|**focal_tversky_loss**|0.8118|0.8106|0.8122|0.8102|0.8113|
+|**symmetric_focal_loss**|0.8148|0.8198|0|0|0|
+|**symmetric_focal_tversky_loss**|0.8152|0.8017|0.8075|0.8054|0.8072|
+|**asymmetric_focal_loss**|0.8030|0.7891|0|0|0|
+|**asymmetric_focal_tversky_loss**|0.8077|0.8077|0.8079|0.8100|0.8052|
+|**sym_unified_focal_loss**|0.8194|0.8192|0.8149|0.8048|0.8112|
+|**asym_unified_focal_loss**|0.8196|0.8202|0.8043|0.7900|0.8068|
