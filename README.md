@@ -8,6 +8,10 @@ The following U-Net architectures are tested: standard, attention, compact, dens
 
 The following loss functions are tested: dice coefficient, soft dice, tversky, focal tversky, symmetric focal, symmetric focal tversky, asymmetric focal, asymmetric focal tversky, symmetric unified focal, asymmetric unified focal
 
+### Dice score table
+
+The below table shows the Dice scores for each model resulting from a combination of U-Net architectures and loss functions. The hyperparameters used can be seen in the script in this repository.
+
 | |standard|attention|compact|dense|residual|
 |---|---|---|---|---|---|
 |**dice_coefficient_loss**|0.8077|0.8043|0.7922|0.7960|0.7893|
@@ -20,3 +24,5 @@ The following loss functions are tested: dice coefficient, soft dice, tversky, f
 |**asymmetric_focal_tversky_loss**|0.8077|0.8077|0.8079|0.8100|0.8052|
 |**sym_unified_focal_loss**|0.8194|0.8192|0.8149|0.8048|0.8112|
 |**asym_unified_focal_loss**|0.8196|0.8202|0.8043|0.7900|0.8068|
+
+In the future, more combinations utilising other U-Net architectures, loss functions and hyperparameters will be assessed.
