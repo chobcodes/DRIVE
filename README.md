@@ -2,6 +2,8 @@
 
 Exploratory project to use different combinations of U-Net architectures, loss functions and hyperparameters and assess Dice scores for each model.
 
+[DRIVE (Digital Retinal Images for Vessel Extraction)](https://drive.grand-challenge.org/) is a dataset for retinal vessel segmentation, consisting of 40 colour fundus images.
+
 ## Combinations of architectures and loss functions
 
 The following U-Net architectures are tested: standard, attention, compact, dense, residual
